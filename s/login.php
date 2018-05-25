@@ -17,9 +17,10 @@
   <div class="header">
     <h2>Login</h2>
   </div>
-     
+  
+  <!-- login.php doesnt exist? -->
   <form method="post" action="login.php">
-    <?php include('errors.php'); ?>
+    <?php include('/includes/errors.inc.php'); ?>
     <div class="input-group">
         <label>Username</label>
         <input type="text" name="username" >

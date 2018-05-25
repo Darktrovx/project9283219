@@ -37,18 +37,9 @@
 	
 </head>
 
-<body>
-	<div id="main_nav">
-		<nav id="nav">
-			<ul>
-				<li><a href="main.html">  Home       </a></li>
-				<li><a href="leaderboard.html"> Leaderboard</a></li>
-				<li><a href="#tourn"> Tournaments</a></li>
-				<li><a href="#about"> Register   </a></li>
-				<li><a href="#contat">Contact Us </a></li>
-			</ul>
-		</nav>
-	</div>
+<!-- NAVBAR -->
+<?php include "./includes/navbar.inc.php"; ?>
+<!-- NAVBAR end -->
 	
 	<div id="leaderboard">
 		<ul id="top_10"></ul>
