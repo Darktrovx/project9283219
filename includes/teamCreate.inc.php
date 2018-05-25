@@ -35,7 +35,7 @@ if (isset($_POST['reg_team'])) {
   	mysqli_query($db, $query);
   	$_SESSION['teamname'] = $teamname;
   	$_SESSION['http_response_code(code)'] = "Team created!";
-  	header('location: teamManage.php');
+  	header('location: /s/teamManage.php');
   }
 }
 

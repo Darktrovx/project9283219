@@ -34,7 +34,7 @@ if (isset($_POST['reg_user'])) {
     mysqli_query($db, $query);
     $_SESSION['epic_id'] = $epic_id;
     $_SESSION['success'] = "Epic ID linked!";
-    header('location: profile.php');
+    header('location: /s/profile.php');
   }
 }
 
