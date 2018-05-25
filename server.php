@@ -7,13 +7,13 @@ $email    = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'registration');
+$db = mysqli_connect('localhost', 'fightnite_admin', 'gdK42F@^M6Gn', 'fightnite_devyn');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
   // receive all input values from the form
-  $username = mysqli_real_escape_string($db, $_POST['username']);
-  $email = mysqli_real_escape_string($db, $_POST['email']);
+  $username   = mysqli_real_escape_string($db, $_POST['username']);
+  $email      = mysqli_real_escape_string($db, $_POST['email']);
   $password_1 = mysqli_real_escape_string($db, $_POST['password_1']);
   $password_2 = mysqli_real_escape_string($db, $_POST['password_2']);
 
@@ -36,11 +36,12 @@ if (isset($_POST['reg_user'])) {
     if ($user['username'] === $username) {
       array_push($errors, "Username already exists");
     }
-
+    
     if ($user['email'] === $email) {
       array_push($errors, "email already exists");
     }
   }
+
 
   // Finally, register user if there are no errors in the form
   if (count($errors) == 0) {
