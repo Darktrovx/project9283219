@@ -17,6 +17,11 @@
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
+<!-- NAVBAR -->
+<?php include "./includes/navbar.inc.php"; ?>
+<!-- NAVBAR end -->
+
 <body>
 
 <div class="header">

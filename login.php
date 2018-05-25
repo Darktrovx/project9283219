@@ -5,7 +5,15 @@
   <title>Registration system PHP and MySQL</title>
   <link rel="stylesheet" type="text/css" href="register.css">
 </head>
+
+
+
 <body>
+
+<!-- NAVBAR -->
+<?php include "./includes/navbar.inc.php"; ?>
+<!-- NAVBAR end -->
+
   <div class="header">
     <h2>Login</h2>
   </div>
