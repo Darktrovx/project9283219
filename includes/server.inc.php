@@ -7,7 +7,7 @@ $email    = "";
 $errors = array();
 
 // connect to the database
-$db = mysqli_connect('localhost', 'fightnite_admin', 'gdK42F@^M6Gn', 'fightnite_devyn');
+$db = mysqli_connect('localhost', '', '', '');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
