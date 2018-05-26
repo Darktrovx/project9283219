@@ -3,7 +3,7 @@
 <html>
 <head>
   <title>Registration system PHP and MySQL</title>
-  <link rel="stylesheet" type="text/css" href="register.css">
+  <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 
 
@@ -11,7 +11,7 @@
 <body>
 
 <!-- NAVBAR -->
-<?php include "./includes/navbar.inc.php"; ?>
+<?php include "../includes/navbar.inc.php"; ?>
 <!-- NAVBAR end -->
 
   <div class="header">

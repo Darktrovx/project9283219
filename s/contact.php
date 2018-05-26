@@ -3,12 +3,13 @@
 <head>
 <meta charset="utf-8">
 <title>Fightnite Contact</title>
+<link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 
 <body>
 	
 <!-- NAVBAR -->
-<?php include "./includes/navbar.inc.php"; ?>
+<?php include "../includes/navbar.inc.php"; ?>
 <!-- NAVBAR end -->
 	
 		<div class="wrap-contact100">

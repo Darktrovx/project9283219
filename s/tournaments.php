@@ -6,8 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fightnite Tournaments</title>
-<link href="mainnav.css" rel="stylesheet" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/style.css">
 <script>
 
 	var ajax = new XMLHttpRequest();
@@ -44,7 +44,7 @@
 <body>
 	
 <!-- NAVBAR -->
-<?php include "./includes/navbar.inc.php"; ?>
+<?php include "../includes/navbar.inc.php"; ?>
 <!-- NAVBAR end -->
 
 	<h1>Fightnite Tournaments</h1>
