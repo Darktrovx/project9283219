@@ -5,9 +5,12 @@
 <html>
 <head>
   <title>Team Creation Page</title>
-  <link rel="stylesheet" type="text/css" href="register.css">
+  <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
+<!-- NAVBAR -->
+<?php include "./includes/navbar.inc.php"; ?>
+<!-- NAVBAR end -->
   <div class="header">
     <h2>Create a Team</h2>
   </div>

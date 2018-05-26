@@ -2,10 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Registration system PHP and MySQL</title>
-  <link rel="stylesheet" type="text/css" href="register.css">
+  	<title>Registration system PHP and MySQL</title>
+	<link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
+<!-- NAVBAR -->
+<?php include "../includes/navbar.inc.php"; ?>
+<!-- NAVBAR end -->
   <div class="header">
     <h2>Register</h2>
   </div>

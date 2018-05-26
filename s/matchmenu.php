@@ -6,13 +6,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fightnite HomePage</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="/style.css">
 
 </head>
 <body>
 	
 <!-- NAVBAR -->
-<?php include "./includes/navbar.inc.php"; ?>
+<?php include "../includes/navbar.inc.php"; ?>
 <!-- NAVBAR end -->
 
 	<div id="matchMenu">

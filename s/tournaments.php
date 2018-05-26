@@ -12,7 +12,7 @@
 
 	var ajax = new XMLHttpRequest();
 	var method = "GET";
-	var url = "tournaments.php";
+	var url = "../includes/tournaments.inc.php";
 	var asynchronous = true;
 
 	ajax.open(method, url, asynchronous);
