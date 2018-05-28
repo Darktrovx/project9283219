@@ -12,6 +12,7 @@ $("button").click(function(){
                 type: 'POST',
                 url: 'teammanage.php',
 								data: {"team_manage": "this.id" }, // Send the ID of the button to php
+																									// TODO: Send text input(player username)
                 success: function(data) {
                     alert(data);
                     $("#reponse").innerHTML = data;
