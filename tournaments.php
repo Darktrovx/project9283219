@@ -1,3 +1,4 @@
+<?php include('tournamentdisplay.inc.php') ?>
 <!doctype html>
 <html>
 
